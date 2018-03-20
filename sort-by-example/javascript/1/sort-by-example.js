@@ -1,0 +1,1 @@
+const exampleSort = (arr, exArr) => arr.sort((e1, e2) => exArr.indexOf(e1) - exArr.indexOf(e2));

@@ -1,0 +1,1 @@
+const countBits = n => n && (n & 1) + countBits(n >> 1)
