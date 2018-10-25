@@ -7,8 +7,6 @@ For example, when an array is passed like `[19, 5, 42, 2, 77]`, the output shoul
 
 `[10, 343445353, 3453445, 3453545353453]` should return `3453455`.
 
-**Hint:** Do not modify the original array.
-
 
 ## Timeline
 - Created: 2015-06-28

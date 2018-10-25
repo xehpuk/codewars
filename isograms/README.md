@@ -23,6 +23,11 @@ is_isogram("Dermatoglyphics" ) == true
 is_isogram("aba" ) == false
 is_isogram("moOse" ) == false # -- ignore letter case
 ```
+```C
+is_isogram("Dermatoglyphics" ) == true;
+is_isogram("aba" ) == false;
+is_isogram("moOse" ) == false; // -- ignore letter case
+```
 
 
 ## Timeline

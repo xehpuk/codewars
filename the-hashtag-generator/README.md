@@ -1,21 +1,24 @@
 # The Hashtag Generator
 [*View on Codewars*](https://www.codewars.com/kata/the-hashtag-generator)
 
-The marketing team are spending way too much time typing in hashtags.   
+The marketing team is spending way too much time typing in hashtags.   
 Let's help them with out own Hashtag Generator!
 
 Here's the deal:
 
-- If the final result is longer than 140 chars it must return false.
-- If the input is a empty string it must return false.
-- It must  start with a hashtag (#).
+- It must start with a hashtag (`#`).
 - All words must have their first letter capitalized.
+- If the final result is longer than 140 chars it must return `false`.
+- If the input or the result is an empty string it must return `false`.
 
-Example Input to Output:
 
-" Hello there thanks for trying my Kata" => "#HelloThereThanksForTryingMyKata"
+## Examples
 
-"    Hello     World   " => "#HelloWorld"
+```
+" Hello there thanks for trying my Kata"  =>  "#HelloThereThanksForTryingMyKata"
+"    Hello     World   "                  =>  "#HelloWorld"
+""                                        =>  false
+```
 
 ## Timeline
 - Created: 2013-09-26

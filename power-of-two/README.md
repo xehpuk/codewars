@@ -1,24 +1,27 @@
 # Power of two
 [*View on Codewars*](https://www.codewars.com/kata/power-of-two)
 
-Write a function that determines if given number is a power of two.
-A [power of two](https://en.wikipedia.org/wiki/Power_of_two) means a number of the form 2^n where *n* is an integer, i.e. the result of exponentiation with number two as the base and integer n as the exponent.
-I.e. 1024 is a power of two: it 2^10.
+Complete the function that determines if a given number is a power of two.
 
+> *a power of two is a number of the form 2<sup>n</sup> where **n** is an integer, i.e. the result of exponentiation with number two as the base and integer **n** as the exponent.*
+
+https://en.wikipedia.org/wiki/Power_of_two
+
+## Examples
 
 ```ruby
+power_of_two?(1024) # true
 power_of_two?(4096) # true
-
-power_of_two?(333) # false
+power_of_two?(333)  # false
 ```
 ```python
-power_of_two(4096) # true
-
-power_of_two(333) # false
+power_of_two(1024) ==> True
+power_of_two(4096) ==> True
+power_of_two(333)  ==> False
 ```
 ```javascript
+isPowerOfTwo(1024) // -> true
 isPowerOfTwo(4096) // -> true
-
 isPowerOfTwo(333)  // -> false
 ```
 ```haskell
@@ -29,10 +32,6 @@ isPowerOfTwo       8 `shouldBe` True
 isPowerOfTwo    1024 `shouldBe` True
 isPowerOfTwo    1026 `shouldBe` False
 ```
-
-Pay attention: hidden tests are using extremely big numbers
-
-
 
 
 ## Timeline

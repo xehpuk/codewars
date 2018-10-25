@@ -15,8 +15,7 @@ Examples:
 
 <br><font color="red">
 Notes:<br><br>
-There is a flaw in the JS version, that may occur in the random tests. Do not hesitate to do several attempts  before modifying your code if you fail there.
-<br><br>Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is actually the expected result, not the input! (these languages are locked so that's not possible to correct it).</font>
+Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is actually the expected result, not the input! (these languages are locked so that's not possible to correct it).</font>
 
 ## Timeline
 - Created: 2015-01-12

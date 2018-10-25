@@ -6,9 +6,14 @@ You own a great car website that helps people make decisions about buying the be
 Write a function that takes the car's value when new (p) and return its value to 2 decimal places in the nth year (n).
 
 Yearly depreciation:
+
 Year 1 = 20%
+
 Year 2 = 20%
+
 Year 3+ = 10% per year (ie. after 3 years the cars value depreciates 10% every year)
+
+Return your answer as a string with 2 decimal places. 
 
 
 ## Timeline

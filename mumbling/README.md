@@ -5,6 +5,24 @@ This time no story, no theory. The examples below show you how to write function
 
 **Examples:**
 
+```julia
+accum("abcd") // -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") // -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") // -> "C-Ww-Aaa-Tttt"
+```
+
+```Groovy
+Kata.accum("abcd")    // -> "A-Bb-Ccc-Dddd"
+Kata.accum("RqaEzty") // -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+Kata.accum("cwAt")    // -> "C-Ww-Aaa-Tttt"
+```
+
+```scala
+Codewars.accum("abcd") // -> "A-Bb-Ccc-Dddd"
+Codewars.accum("RqaEzty") // -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+Codewars.accum("cwAt") // -> "C-Ww-Aaa-Tttt"
+```
+
 ```swift
 accum("abcd") // -> "A-Bb-Ccc-Dddd"
 accum("RqaEzty") // -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
@@ -91,6 +109,10 @@ accum("cwAt")
 [1] "C-Ww-Aaa-Tttt"
 ```
 The parameter of accum is a string which includes only letters from `a..z` and `A..Z`.
+
+
+
+
 
 
 ## Timeline

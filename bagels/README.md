@@ -33,7 +33,7 @@ class Bagel {
 }
 ```
 
-The catch? For the solution, we're testing that the result is equal to 4. But as a little hint, the solution to the this Kata is exactly the same as the example test cases.
+The catch? For the solution, we're testing that the result is equal to 4. But as a little hint, the solution to this Kata is (almost) exactly the same as the example test cases.
 
 ## Timeline
 - Created: 2015-01-19

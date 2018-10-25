@@ -53,6 +53,12 @@ a = Automaton()
 is_accepted = a.read_commands({'1', '0', '0', '1'});
 ```
 
+```c
+// Do anything you need to set up this automaton's states.
+is_accepted = read_commands("1001");
+```
+
+
 We make these transitions:
 ```
 input: ["1", "0", "0", "1", "0"]

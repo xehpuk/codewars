@@ -33,7 +33,6 @@ digital_root(493193)
 
 ```
 
-__<font color="red">Note for Java users: actual and expected are flipped in the error messages.</font>__
 
 ## Timeline
 - Created: 2014-09-19

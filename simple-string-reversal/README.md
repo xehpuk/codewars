@@ -16,6 +16,12 @@ More examples in the test cases. All input will be lower case letters and in som
 
 Good luck!
 
+Please also try:
+
+[Simple time difference](https://www.codewars.com/kata/5b76a34ff71e5de9db0000f2)
+
+[Simple remove duplicates](https://www.codewars.com/kata/5ba38ba180824a86850000f7)
+
 ## Timeline
 - Created: 2018-01-31
 - Published: 2018-01-31

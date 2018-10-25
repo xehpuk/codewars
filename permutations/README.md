@@ -30,6 +30,11 @@ permutations    "a" `shouldBe` ["a"]
 permutations   "ab" `shouldBe` ["ab", "ba"]
 permutations "aabb" `shouldBe` ["aabb","abab","abba","baab","baba","bbaa"]
 ```
+```java
+Permutations.singlePermutations("a") `shouldBe` ["a"]
+Permutations.singlePermutations("ab") `shouldBe` ["ab", "ba"]
+Permutations.singlePermutations("aabb") `shouldBe` ["aabb","abab","abba","baab","baba","bbaa"]
+```
 
 The order of the permutations doesn't matter.
 

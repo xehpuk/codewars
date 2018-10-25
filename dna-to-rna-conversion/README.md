@@ -32,6 +32,9 @@ new Bio().dnaToRna("GCAT") // returns "GCAU"
 ```rust
 dna_to_rna("GCAT") //=> "GCAU"
 ```
+```asm
+dna_to_rna("GCAT"); // returns "GCAU"
+```
 
 
 ## Timeline

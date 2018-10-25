@@ -7,6 +7,8 @@ This is taking the guessing game to a whole new level. This time, you're the one
 
 The task is really simple. You make a guess, Math.random() does it's thing, and if you're right 5 times out of 5, you win!
 
+Don't guess the same thing every time.
+
 Hint: You guess first.
 
 

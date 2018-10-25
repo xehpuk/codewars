@@ -7,7 +7,7 @@ Everybody knows a little german, right? But remembering the correct articles is 
 - each noun containing 2/3 vowels has the article "die"
 - each noun containing more than 3 vowels has the article "der"
 
-Caution: Vowels are "a,e,i,o,u". Umlaute (ä ö ü) are also being counted!
+Caution: Vowels are "a,e,i,o,u". Umlaute (Ã¤ Ã¶ Ã¼) are also being counted!
 
 (This Kata is a joke, there is no such grammar rule!)
 

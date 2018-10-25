@@ -11,10 +11,6 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 
 Note: for this kata `y` isn't considered a vowel.
 
-~~~if:csharp
-Beware: In error messages Expected and Actual are flipped.
-~~~
-
 ## Timeline
 - Created: 2014-02-12
 - Published: 2014-02-12

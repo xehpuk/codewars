@@ -23,11 +23,23 @@ Stringify.number_to_string(999) #=> "999"
 Kata.numberToString(123); // returns "123";   
 Kata.numberToString(999); // returns "999";
 ```
+```kotlin
+numberToString(123) // returns "123";   
+numberToString(999) // returns "999";
+```
 ```javascript
 numberToString(123); // returns '123';`   
 numberToString(999); // returns '999';`
 ```
 ```python
+number_to_string(123) /* returns '123' */
+number_to_string(999) /* returns '999' */
+```
+```ruby
+number_to_string(123) /* returns '123' */
+number_to_string(999) /* returns '999' */
+```
+```crystal
 number_to_string(123) /* returns '123' */
 number_to_string(999) /* returns '999' */
 ```

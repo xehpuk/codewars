@@ -53,6 +53,7 @@ Use the `Node.next` to get the next following node.
 node.next
 ```
 ~~~
+Note: do NOT mutate the nodes!
 
 > Thanks to shadchnev, I broke all of the methods from the Hash class.
 

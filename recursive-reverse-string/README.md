@@ -20,7 +20,7 @@ Your objective is to complete a recursive function `reverse()` that receives `st
 
 Rules:
 
-- reverse function should be executed only N times. `N = length of the input string`
+- reverse function should be executed exactly N times. `N = length of the input string`
 - helper functions are not allowed
 - changing the signature of the function is not allowed
 
@@ -33,14 +33,6 @@ reverse("12345") = "54321" (N = 5)
 ```
 
 <i>All tests for this Kata are randomly generated, besides checking the reverse logic they will count how many times the reverse() function has been executed. <i>
-
-<font color="red">
-Please note that tests for `js` and `coffeescript` and `Java "Hello world"` show  wrong messages.
-<br>
-Expected and Actual values should be swapped. 
-<br>
-Unfortunately Test Cases section is blocked for editing and can be changed only by moderator.
-</font>
 
 ## Timeline
 - Created: 2014-05-07
