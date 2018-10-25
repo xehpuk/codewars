@@ -15,11 +15,11 @@ Write a program that will return the name of the person who will drink the `n`-t
 The input data consist of an array which contains at least 1 name, and single integer `n`.
 
 ```csharp
-1â€‰ â‰¤ â€‰n â€‰â‰¤ â€‰1000000000
+1  ≤  n  ≤  1000000000
 ```
 
 ## Output / Examples
-Return the single line â€” the name of the person who drinks the n-th can of cola. The cans are numbered starting from 1. 
+Return the single line — the name of the person who drinks the n-th can of cola. The cans are numbered starting from 1. 
 
 ```csharp
 string[] names = new string[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };

@@ -1,4 +1,4 @@
-# Take a Number And Sum  Its Digits Raised To The Consecutive Powers And ....Â¡Eureka!!
+# Take a Number And Sum  Its Digits Raised To The Consecutive Powers And ....¡Eureka!!
 [*View on Codewars*](https://www.codewars.com/kata/take-a-number-and-sum-its-digits-raised-to-the-consecutive-powers-and-dot-dot-dot-eureka)
 
 The number ```89``` is the first integer with more than one digit that fulfills the property partially introduced in the title of this kata. 

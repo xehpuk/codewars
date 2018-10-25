@@ -18,7 +18,7 @@ You have to write a function
 countSquares :: Integer -> Integer
 ```
 ```javascript
-function countSquares(n){ â€¦ }
+function countSquares(n){ … }
 ```
 ```ruby
 def count_squares(n)
