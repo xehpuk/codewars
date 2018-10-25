@@ -1,0 +1,1 @@
+const findDigit = (num, nth) => nth <= 0 ? -1 : Math.trunc(Math.abs(num) / 10 ** (nth - 1)) % 10

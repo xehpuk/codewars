@@ -1,1 +1,2 @@
-guess = 42
+Math.floor = x => guess;
+var guess = Math.random();
