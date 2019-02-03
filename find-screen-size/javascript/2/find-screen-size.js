@@ -1,0 +1,1 @@
+findScreenHeight = Verify.validate

@@ -7,21 +7,18 @@ In this kata you are required to, given a string, replace every letter with its 
 
 If anything in the text isn't a letter, ignore it and don't return it.
 
-a being 1, b being 2, etc.
+`"a" = 1`, `"b" = 2`, etc.
 
-As an example:
+## Example
 
-```python
+```
 alphabet_position("The sunset sets at twelve o' clock.")
 ```
-```csharp
-Kata.AlphabetPosition("The sunset sets at twelve o' clock.")
-```
-```php
-alphabet_position('The sunset sets at twelve o\' clock.');
-```
 
-Should return `"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"` as a string.
+Should return `"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"` (as a string)
+~~~if:C
+In C, you should allocate the memory used for your result yourself.
+~~~
 
 ## Timeline
 - Created: 2014-11-21

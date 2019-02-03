@@ -7,6 +7,10 @@ What  ways of achieving this do you know?
 
 #### Examples:
 
+```php
+numberToString(123); // returns '123';`   
+numberToString(999); // returns '999';`
+```
 ```clojure
 number-to-string 123 ;; returns '123'
 number-to-string 999 ;; returns '999'

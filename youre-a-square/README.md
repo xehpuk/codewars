@@ -24,6 +24,15 @@ is_square   4 # => true
 is_square  25 # => true
 is_square  26 # => false
 ```
+```scala
+isSquare(-1) returns  false
+isSquare(0) returns   true
+isSquare(3) returns   false
+isSquare(4) returns   true
+isSquare(25) returns  true  
+isSquare(26) returns  false
+```
+
 
 ## Timeline
 - Created: 2015-01-23

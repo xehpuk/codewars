@@ -26,7 +26,7 @@ motto("Tyrell")
 should return
 
 ```
-"growing strong"
+"Growing Strong"
 ```
   
 If passed an invalid House name, the script should return an empty string.

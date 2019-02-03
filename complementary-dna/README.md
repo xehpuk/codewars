@@ -75,6 +75,12 @@ dna_strand("ATTGC") /* return "TAACG" */
 dna_strand("GTAT")  /* return "CATA"  */
 ```
 
+```golang
+DNAStrand("ATTGC") // returns "TAACG"
+
+DNAStrand("GTAT") // returns "CATA"
+```
+
 ## Timeline
 - Created: 2015-05-09
 - Published: 2015-05-09

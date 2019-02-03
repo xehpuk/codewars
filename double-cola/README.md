@@ -15,7 +15,7 @@ Write a program that will return the name of the person who will drink the `n`-t
 The input data consist of an array which contains at least 1 name, and single integer `n`.
 
 ```csharp
-1  ≤  n  ≤  1000000000
+1  ≤  n  ≤  10000000000
 ```
 
 ## Output / Examples
@@ -52,7 +52,12 @@ who_is_next(c("Sheldon", "Leonard", "Penny", "Rajesh", "Howard"), 1) == "Sheldon
 who_is_next(c("Sheldon", "Leonard", "Penny", "Rajesh", "Howard"), 52) == "Penny"
 who_is_next(c("Sheldon", "Leonard", "Penny", "Rajesh", "Howard"), 7230702951) == "Leonard"
 ```
-
+```c
+char* names[] = {"Sheldon", "Leonard", "Penny", "Rajesh", "Howard"};
+who_is_next(names, 5, 1) == "Sheldon"
+who_is_next(names, 5, 52) == "Penny"
+who_is_next(names, 5, 10010) == "Howard"
+```
 
 ## Timeline
 - Created: 2015-04-02

@@ -17,14 +17,23 @@ DNAtoRNA("GCAT") returns ("GCAU")
 ```javascript
 DNAtoRNA("GCAT") returns ("GCAU")
 ```
+```typescript
+DNAtoRNA("GCAT") returns ("GCAU")
+```
 ```coffeescript
 DNAtoRNA "GCAT" returns "GCAU"
 ```
 ```elixir
 dna_to_rna("GCAT") #=> "GCAU"
 ```
+```crystal
+dna_to_rna("GCAT") #=> "GCAU"
+```
 ```haskell
 dnaToRna "GCAT" returns "GCAU"
+```
+```purescript
+dnaToRna "GCAT" -- => "GCAU"
 ```
 ```java
 new Bio().dnaToRna("GCAT") // returns "GCAU"
@@ -32,9 +41,17 @@ new Bio().dnaToRna("GCAT") // returns "GCAU"
 ```rust
 dna_to_rna("GCAT") //=> "GCAU"
 ```
-```asm
+```nasm
 dna_to_rna("GCAT"); // returns "GCAU"
 ```
+```go
+DNAtoRNA("GCAT") // returns "GCAU"
+```
+```c
+dna_to_rna("GCAT"); /* returns "GCAU" */
+```
+
+The input string can be of arbitrary length - in particular, it may be empty.  All input is guaranteed to be valid, i.e. each input string will only ever consist of `'G'`, `'C'`, `'A'` and/or `'T'`.
 
 
 ## Timeline

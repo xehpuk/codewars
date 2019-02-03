@@ -29,6 +29,10 @@ MorseCodeDecoder.Decode(".... . -.--   .--- ..- -.. .")
 MorseCode.decode('.... . -.--   .--- ..- -.. .')
 #=> "HEY JUDE"
 ```
+```elm
+MorseCode.decode ".... . -.--   .--- ..- -.. ."
+--should return "HEY JUDE"
+```
 ```go
 DecodeMorse(".... . -.--   .--- ..- -.. .")
 // should return "HEY JUDE"
@@ -69,6 +73,10 @@ decodeMorse('.... . -.--   .--- ..- -.. .')
 MorseDecoder::new().decode_morse(".... . -.--   .--- ..- -.. .")
 //should return "HEY JUDE"
 ```
+```scala
+MorseDecoder.decode(".... . -.--   .--- ..- -.. .")
+//should return "HEY JUDE"
+```
 
 **NOTE:** For coding purposes you have to use ASCII characters `.` and `-`, not Unicode characters.
 
@@ -76,10 +84,12 @@ The Morse code table is preloaded for you as a dictionary, feel free to use it:
 + Coffeescript/C++/Go/JavaScript/PHP/Python/Ruby/TypeScript: `MORSE_CODE['.--']`
 + C#: `MorseCode.Get(".--")` (returns `string`)
 + Elixir: `morse_codes` variable
++ Elm: `MorseCodes.get : Dict String String`
 + Haskell: `morseCodes ! ".--"` (Codes are in a `Map String String`)
 + Java: `MorseCode.get(".--")`
 + Kotlin: `MorseCode[".--"] ?: ""` or `MorseCode.getOrDefault(".--", "")`
 + Rust: `self.morse_code`
+* Scala: `morseCodes(".--")`
 
 All the test strings would contain valid Morse code, so you may skip checking for errors and exceptions. In C#, tests will fail if the solution code throws an exception, please keep that in mind. This is mostly because otherwise the engine would simply ignore the tests, resulting in a "valid" solution.
 
