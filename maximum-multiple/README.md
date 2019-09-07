@@ -21,22 +21,22 @@ ___
 ___
 # Input >> Output Examples 
 
-```cpp
-1- maxMultiple (2,7) ==> return (6)
+```
+maxMultiple (2,7) ==> return (6)
 ```
 ## Explanation: 
 
 **_(6)_** is divisible by **_(2)_** , **_(6)_** is less than or equal to bound **_(7)_** , and **_(6)_** is > 0 .
 ___
-```cpp
-2- maxMultiple (10,50)  ==> return (50)
+```
+maxMultiple (10,50)  ==> return (50)
 ```
 ## Explanation:
 
 **_(50)_** *is divisible by* **_(10)_** , **_(50)_** is less than or equal to bound **_(50)_** , and **_(50)_** is > 0 .*
 ___
-```cpp
-3- maxMultiple (37,200) ==> return (185)
+```
+maxMultiple (37,200) ==> return (185)
 ```
 ## Explanation:
 

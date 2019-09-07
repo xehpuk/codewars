@@ -13,6 +13,10 @@ Complete the method which accepts such an array, and returns that single differe
 [1, 1, 2] ==> 2
 [17, 17, 3, 17, 17, 17, 17] ==> 3
 ```
+```c
+stray(3, {1, 1, 2}) == 2
+stray(7, {17, 17, 3, 17, 17, 17, 17}) == 3
+```
 
 ## Timeline
 - Created: 2016-10-06

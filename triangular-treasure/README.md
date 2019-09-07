@@ -50,6 +50,12 @@ all [
   triangular(3)==6
   triangular(-10)==0
 ```
+```c
+  triangular(0);   // returns 0
+  triangular(2);   // returns 3
+  triangular(3);   // returns 6
+  triangular(-10); // returns 0
+```
 
 ## Timeline
 - Created: 2013-10-16

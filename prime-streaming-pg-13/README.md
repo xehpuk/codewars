@@ -1,9 +1,13 @@
 # Prime Streaming (PG-13)
 [*View on Codewars*](https://www.codewars.com/kata/prime-streaming-pg-13)
 
-Create an endless stream of prime numbers - a bit like ```IntStream.of(2,3,5,7,11,13,17)```, but infinite. The stream must be able to produce a million primes in a few seconds.
+Create an endless stream of prime numbers - a bit like `IntStream.of(2, 3, 5, 7, 11, 13, 17)`, but infinite. The stream must be able to produce a million primes in a few seconds.
 
 If this is too easy, try [Prime Streaming (NC-17)](/kata/prime-streaming-nc-17/).
+
+~~~if:ruby
+Note: the `require` keyword is disabled.
+~~~
 
 ## Timeline
 - Created: 2015-03-30

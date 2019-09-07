@@ -14,6 +14,9 @@ smash(words); // returns "hello world this is great"
 ```php
 smash(['hello', 'world', 'this', 'is', 'great']); // => 'hello world this is great'
 ```
+```dart
+smash(['hello', 'world', 'this', 'is', 'great']); // => 'hello world this is great'
+```
 ```python
 words = ['hello', 'world', 'this', 'is', 'great']
 smash(words) # returns "hello world this is great"
@@ -37,8 +40,15 @@ words = c("hello", "world", "this", "is", "great")
 smash(words)
 [1] "hello world this is great"
 ```
-
-
+```julia
+words = ["hello", "world", "this", "is", "great"]
+smash(words) # returns "hello world this is great"
+```
+```racket
+;; use a list intead of an array in racket
+(define words '("hello" "world" "this" "is" "great"))
+(smash words) ; returns "hello world this is great"
+```
 ## Assumptions
 
 * You can assume that you are only given words.

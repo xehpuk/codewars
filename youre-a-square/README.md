@@ -32,7 +32,14 @@ isSquare(4) returns   true
 isSquare(25) returns  true  
 isSquare(26) returns  false
 ```
-
+```c
+is_square(-1) // returns false
+is_square(0)  // returns true
+is_square(3)  // returns false
+is_square(4)  // returns true
+is_square(25) // returns true  
+is_square(26) // returns false
+```
 
 ## Timeline
 - Created: 2015-01-23

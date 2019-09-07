@@ -9,14 +9,12 @@ __Input:__ Year as an integer.
 
 __Output:__ Number of Black Fridays in the year as an integer.
 
-__Precondition:__ 1000 < |year| < 3000
-
 __Examples:__
 
 	unluckyDays(2015) == 3
 	unluckyDays(1986) == 1
 
-***Note:*** for Ruby consider using the Gregorian Calendar instead of the default one (Italian), to have results coherent with other languages.
+***Note:*** In Ruby years will start from 1593.
 
 ## Timeline
 - Created: 2016-03-17

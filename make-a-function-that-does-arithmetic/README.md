@@ -41,6 +41,13 @@ ArithmeticFunction.arithmetic(5, 2, "multiply") => returns 10
 ArithmeticFunction.arithmetic(5, 2, "divide")   => returns 2
 ```
 
+```go
+Arithmetic(5, 2, "add")      => returns 7
+Arithmetic(5, 2, "subtract") => returns 3
+Arithmetic(5, 2, "multiply") => returns 10
+Arithmetic(5, 2, "divide")   => returns 2
+```
+
 Try to do it without using if statements!
 
 

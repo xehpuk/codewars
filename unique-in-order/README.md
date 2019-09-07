@@ -20,6 +20,21 @@ unique_in_order('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
 unique_in_order('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 unique_in_order([1,2,2,3,3])       == [1,2,3]
 ```
+```haskell
+uniqueInOrder "AAAABBBCCDAABBB" == "ABCDAB"
+uniqueInOrder "ABBCcAD"         == "ABCcAD"
+uniqueInOrder [1,2,2,3,3]       == [1,2,3]
+```
+```crystal
+unique_in_order('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
+unique_in_order('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
+unique_in_order([1,2,2,3,3])       == [1,2,3]
+```
+```rust
+unique_in_order("AAAABBBCCDAABBB".chars()) == vec!['A', 'B', 'C', 'D', 'A', 'B']
+unique_in_order("ABBCcAD")                 == vec!['A', 'B', 'C', 'c', 'A', 'D']
+unique_in_order(vec![1,2,2,3,3])           == vec![1,2,3]
+```
 
 
 ## Timeline

@@ -5,7 +5,6 @@ Complete the function to determine the number of bits required to convert intege
 
 The upper limit for `A` and `B` is 2<sup>16</sup>, `int.MaxValue` or similar.
 
-
 For example, you can change 31 to 14 by flipping the 4th and 0th bit:
 ```
  31  0 0 0 1 1 1 1 1

@@ -31,7 +31,7 @@ That said, your task is to implement two functions:
 
 **NOTE:** For coding purposes you have to use ASCII characters `.` and `-`, not Unicode characters.
 
-The Morse code table is preloaded for you as <code>MORSE_CODE</code> dictionary; in Java <code>MorseCode</code> class is provided; in Haskell the codes are in a <code>Map String String</code> and can be accessed like this: <code>morseCodes ! ".--"</code> - feel free to use it.
+The Morse code table is preloaded for you as <code>MORSE_CODE</code> dictionary; in Java <code>MorseCode</code> class is provided; in Haskell the codes are in a <code>Map String String</code> and can be accessed like this: <code>morseCodes ! ".--"</code>; in Racket <code>MORSE-CODE</code> and can be accessed like this: <code>(hash-ref MORSE-CODE ".--")</code>. Feel free to use this preload.
 
 All the test strings would be valid to the point that they could be reliably decoded as described above, so you may skip checking for errors and exceptions, just do your best in figuring out what the message is!
 

@@ -9,9 +9,9 @@ isIsogram "moose" == false
 isIsogram "aba" == false
 ```
 ```javascript
-isIsogram( "Dermatoglyphics" ) == true
-isIsogram( "aba" ) == false
-isIsogram( "moOse" ) == false // -- ignore letter case
+isIsogram("Dermatoglyphics") == true
+isIsogram("aba") == false
+isIsogram("moOse") == false // -- ignore letter case
 ```
 ```python
 is_isogram("Dermatoglyphics" ) == true

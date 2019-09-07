@@ -50,6 +50,15 @@ DNAtoRNA("GCAT") // returns "GCAU"
 ```c
 dna_to_rna("GCAT"); /* returns "GCAU" */
 ```
+```dart
+dnaToRna("GCAT") // => "GCAU"
+```
+```julia
+dnatorna("GCAT") # => "GCAU"
+```
+```php
+dnaToRna("GCAT") // => "GCAU"
+```
 
 The input string can be of arbitrary length - in particular, it may be empty.  All input is guaranteed to be valid, i.e. each input string will only ever consist of `'G'`, `'C'`, `'A'` and/or `'T'`.
 

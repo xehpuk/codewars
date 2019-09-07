@@ -3,7 +3,11 @@
 
 We need a function that can transform a number into a string.
 
-What  ways of achieving this do you know?
+What ways of achieving this do you know?
+
+```if:c
+In C, return a dynamically allocated string that will be freed by the test suite.
+```
 
 #### Examples:
 
@@ -35,6 +39,14 @@ numberToString(999) // returns "999";
 numberToString(123); // returns '123';`   
 numberToString(999); // returns '999';`
 ```
+```reason
+numberToString(123); /* returns "123"; */
+numberToString(999); /* returns "999"; */
+```
+```dart
+numberToString(123); // returns '123';`   
+numberToString(999); // returns '999';`
+```
 ```python
 number_to_string(123) /* returns '123' */
 number_to_string(999) /* returns '999' */
@@ -51,7 +63,26 @@ number_to_string(999) /* returns '999' */
 number_to_string(123) //=> "123"
 number_to_string(999) //=> "999"
 ```
-
+```scala
+numberToString(123) // "123"
+numberToString(999) // "999"
+```
+```c
+number_to_string(123) // "123"
+number_to_string(999) // "999"
+```
+```racket
+(number-to-string 123) ; "123"
+(number-to-string 999) ; "999"
+```
+```cpp
+number_to_string(123) // "123"
+number_to_string(999) // "999"
+```
+```julia
+numbertostring(123) # returns "123"  
+numbertostring(999) # returns "999"
+```
 
 
 ## Timeline

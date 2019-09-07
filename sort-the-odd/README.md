@@ -25,7 +25,9 @@ sort_array([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4]
 ```haskell
 sortArray [5, 3, 2, 8, 1, 4] == [1, 3, 2, 8, 5, 4]
 ```
-
+```clojure
+(= (sort-array [5 3 2 8 1 4]) [1 3 2 8 5 4])
+```
 
 ## Timeline
 - Created: 2016-07-16

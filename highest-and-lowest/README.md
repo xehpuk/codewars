@@ -55,9 +55,9 @@ high_and_low("1 2 -3 4 5") # return "5 -3"
 high_and_low("1 9 3 4 -5") # return "9 -5"
 ```
 ```java
-HighAndLow("1 2 3 4 5")  // return "5 1"
-HighAndLow("1 2 -3 4 5") // return "5 -3"
-HighAndLow("1 9 3 4 -5") // return "9 -5"
+highAndLow("1 2 3 4 5")  // return "5 1"
+highAndLow("1 2 -3 4 5") // return "5 -3"
+highAndLow("1 9 3 4 -5") // return "9 -5"
 ```
 ```haskell
 highAndLow "1 2 3 4 5")  # return "5 1"

@@ -17,15 +17,15 @@ DNA_strand ("GTAT") # return "CATA"
 ```
 
 ```javascript
-DNAStrand ("ATTGC") # return "TAACG"
+DNAStrand ("ATTGC") // return "TAACG"
 
-DNAStrand ("GTAT") # return "CATA" 
+DNAStrand ("GTAT") // return "CATA" 
 ```
 
 ```typescript
-dnaStrand("ATTGC") # return "TAACG"
+dnaStrand("ATTGC") // return "TAACG"
 
-dnaStrand("GTAT") # return "CATA" 
+dnaStrand("GTAT") // return "CATA" 
 ```
 
 ```csharp
@@ -57,6 +57,13 @@ DnaStrand.makeComplement("ATTGC") // return "TAACG"
 DnaStrand.makeComplement("GTAT") // return "CATA"
 ```
 
+```kotlin
+makeComplement("ATTGC") // return "TAACG"
+
+makeComplement("GTAT") // return "CATA"
+```
+
+
 ```haskell
 dnaStrand []        `shouldBe` []
 dnaStrand [A,T,G,C] `shouldBe` [T,A,C,G]
@@ -80,6 +87,13 @@ DNAStrand("ATTGC") // returns "TAACG"
 
 DNAStrand("GTAT") // returns "CATA"
 ```
+
+```rust
+dna_strand("ATTGC") // returns "TAACG"
+dna_strand("GTAT")  // returns "CATA"
+```
+
+
 
 ## Timeline
 - Created: 2015-05-09

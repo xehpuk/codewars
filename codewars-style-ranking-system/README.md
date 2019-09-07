@@ -64,9 +64,9 @@ user.rank # => -7 # rank was upgraded to -7
 user = User()
 user.rank # => -8
 user.progress # => 0
-user.inc\_progress(-7)
+user.inc_progress(-7)
 user.progress # => 10
-user.inc\_progress(-5) # will add 90 progress
+user.inc_progress(-5) # will add 90 progress
 user.progress # => 0 # progress is now zero
 user.rank # => -7 # rank was upgraded to -7
 ```
@@ -89,9 +89,22 @@ let u3 = incProgress (-5) u2 -- will add 90 progress
 progress u3 -- => 0 -- progress is now zero
 rank u3 -- => -7 -- rank was upgraded to -7
 ```
+```csharp
+User user = new User();
+user.rank; // => -8
+user.progress; // => 0
+user.incProgress(-7);
+user.progress; // => 10
+user.incProgress(-5); // will add 90 progress
+user.progress; // => 0 // progress is now zero
+user.rank; // => -7 // rank was upgraded to -7
+```
 
 ~~~if:java
 **Note:** In **Java** some methods may throw an `IllegalArgumentException`.
+~~~
+~~~if:csharp
+**Note:** In **C#** some methods may throw an `ArgumentException`.
 ~~~
 
 **Note**: Codewars no longer uses this algorithm for its own ranking system. It uses a pure Math based solution that gives consistent results no matter what order a set of ranked activities are completed at. 

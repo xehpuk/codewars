@@ -11,7 +11,7 @@ recorded in a control string. For example a "good" control string would be
 color b, one time color h then one time color a...
 
 Sometimes there are problems: lack of colors, technical malfunction and a "bad" 
-control string is produced e.g. `aaaxbbbbyyhwawiwjjjwwm`.
+control string is produced e.g. `aaaxbbbbyyhwawiwjjjwwm` with letters not from `a to m`.
 
 You have to write a function `printer_error` which given a string will output
 the error rate of the printer as a **string** representing a rational whose numerator 

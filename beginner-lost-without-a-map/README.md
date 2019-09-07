@@ -9,6 +9,13 @@ For example:
 
 For the beginner, try to use the `map` method - it comes in very handy quite a lot so is a good one to know.
 
+~~~if:racket
+```racket
+;for racket you are given a list
+(maps '(1 2 3)) ; returns '(2 4 6)
+```
+~~~
+
 ## Timeline
 - Created: 2016-10-07
 - Published: 2016-10-07

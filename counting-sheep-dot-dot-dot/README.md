@@ -13,6 +13,14 @@ For example,
   true,  true,  true,  true ,
   false, false, true,  true]
 ```
+```crystal
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+```
 ```python
 [True,  True,  True,  False,
   True,  True,  True,  True ,
@@ -28,6 +36,14 @@ For example,
   true,  false, false, true ,
   true,  true,  true,  true ,
   false, false, true,  true]
+```
+```c
+{ true,  true,  true,  false,
+  true,  true,  true,  true,
+  true,  false, true,  false,
+  true,  false, false, true,
+  true,  true,  true,  true,
+  false, false, true,  true }
 ```
 ```cpp
 [true,  true,  true,  false,

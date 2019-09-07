@@ -23,10 +23,19 @@ maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])
 Max.sequence(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4});
 // should be 6: {4, -1, 2, 1}
 ```
+```c
+maxSequence({-2, 1, -3, 4, -1, 2, 1, -5, 4}, 9)
+// should return 6, from sub-array: {4, -1, 2, 1}
+```
+```cpp
+maxSequence({-2, 1, -3, 4, -1, 2, 1, -5, 4});
+//should be 6: {4, -1, 2, 1}
+```
 
 Easy case is when the list is made up of only positive numbers and the maximum sum is the sum of the whole array. If the list is made up of only negative numbers, return 0 instead.
 
 Empty list is considered to have zero greatest sum. Note that the empty list or array is also a valid sublist/subarray.
+
 
 ## Timeline
 - Created: 2014-10-30

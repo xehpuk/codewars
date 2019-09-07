@@ -24,5 +24,5 @@ split [obj1, obj2], 'prop'
 ## Timeline
 - Created: 2015-03-19
 - Published: 2015-03-19
-- Approved: null
+- Approved: 2019-02-12
 - Completed: 2015-05-23

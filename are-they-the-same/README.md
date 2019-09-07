@@ -39,6 +39,10 @@ If `a` or `b` are empty then the result is self-evident.
 ## Note for C
 The two arrays have the same size `(> 0)` given as parameter in function `comp`.
 ~~~
+```racket
+a or b are empty or not empty lists.
+
+```
 
 ## Timeline
 - Created: 2015-03-14

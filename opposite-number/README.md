@@ -10,8 +10,6 @@ Examples:
 -34: 34
 ```
 
-But can you do it in 1 line of code and without any conditionals?
-
 ## Timeline
 - Created: 2016-03-08
 - Published: 2016-03-08

@@ -12,11 +12,17 @@ Given a year, return the century it is in.
 
 ## Input , Output Examples ::
 
- ```cpp
+```cpp
 centuryFromYear(1705)  returns (18)
 centuryFromYear(1900)  returns (19)
 centuryFromYear(1601)  returns (17)
 centuryFromYear(2000)  returns (20)
+```
+```racket
+(century 1705)  returns 18
+(century 1900)  returns 19
+(century 1601)  returns 17
+(century 2000)  returns 20
 ```
 
 Hope you enjoy it .. Awaiting for Best Practice Codes 

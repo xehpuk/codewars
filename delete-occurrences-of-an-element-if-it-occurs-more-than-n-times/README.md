@@ -17,12 +17,13 @@ Write the output numbers into the `out` parameter, and return its length.
 The input array will contain only integers between 1 and 50 inclusive. Use it to your advantage.
 ~~~
 
-## Example
-```c
-delete_nth({1, 1, 1, 1}, 4, 2, out) // out = {1, 1}, return 2
+~~~if:c
+For C:
+* Assign the return array length to the pointer parameter `*szout`.
+* Do not mutate the input array.
+~~~
 
-delete_nth({20, 37, 20, 21}, 4, 1, out) // out = {20, 37, 21}, return 3
-```
+## Example
 ```python
   delete_nth ([1,1,1,1],2) # return [1,1]
   
@@ -42,12 +43,10 @@ delete_nth({20, 37, 20, 21}, 4, 1, out) // out = {20, 37, 21}, return 3
 deleteNth [20,37,20,21]       1 `shouldBe` [20,37,21]
 deleteNth [1,1,3,3,7,2,2,2,2] 3 `shouldBe` [1, 1, 3, 3, 7, 2, 2, 2]
 ```
-
 ```csharp
 Kata.DeleteNth (new int[] {20,37,20,21}, 1) // return [20,37,21]
 Kata.DeleteNth (new int[] {1,1,3,3,7,2,2,2,2}, 3) // return [1, 1, 3, 3, 7, 2, 2, 2]
 ```
-
 ```java
 EnoughIsEnough.deleteNth(new int[] {20,37,20,21}, 1) // return [20,37,21]
 EnoughIsEnough.deleteNth(new int[] {1,1,3,3,7,2,2,2,2}, 3) // return [1, 1, 3, 3, 7, 2, 2, 2]
@@ -55,6 +54,10 @@ EnoughIsEnough.deleteNth(new int[] {1,1,3,3,7,2,2,2,2}, 3) // return [1, 1, 3, 3
 ```c++
 deleteNth({20,37,20,21}, 1) // return {20,37,21}
 deleteNth({1,1,3,3,7,2,2,2,2}, 3) // return {1, 1, 3, 3, 7, 2, 2, 2}
+```
+```c
+delete_nth(4, {1, 1, 1, 1}, 2, *p)     // returns {1, 1}, 2
+delete_nth(4, {20, 37, 20, 21}, 1, *p) // returns {20, 37, 21}, 3
 ```
 
 

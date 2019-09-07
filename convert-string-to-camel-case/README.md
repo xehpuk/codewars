@@ -1,7 +1,7 @@
 # Convert string to camel case
 [*View on Codewars*](https://www.codewars.com/kata/convert-string-to-camel-case)
 
-Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized **only** if the original word was capitalized. 
+Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized **only** if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). 
 
 ## Examples
 
@@ -71,7 +71,11 @@ ToCamelCase("The_Stealth_Warrior"); // returns "TheStealthWarrior"
 tocamelcase("the-stealth-warrior") # returns "theStealthWarrior"
 tocamelcase("The_Stealth_Warrior") # returns "TheStealthWarrior"
 ```
+```scala
+toCamelCase("the-stealth-warrior") // returns "theStealthWarrior"
 
+toCamelCase("The_Stealth_Warrior") // returns "TheStealthWarrior"
+```
 
 ## Timeline
 - Created: 2013-04-26

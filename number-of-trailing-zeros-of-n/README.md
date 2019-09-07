@@ -11,7 +11,7 @@ For more info, see: http://mathworld.wolfram.com/Factorial.html
 
 ## Examples
 
-```
+```py
 zeros(6) = 1
 # 6! = 1 * 2 * 3 * 4 * 5 * 6 = 720 --> 1 trailing zero
 

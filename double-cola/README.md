@@ -12,15 +12,12 @@ Write a program that will return the name of the person who will drink the `n`-t
 
 ## Input
 
-The input data consist of an array which contains at least 1 name, and single integer `n`.
-
-```csharp
-1  ≤  n  ≤  10000000000
-```
+The input data consist of an array which contains at least 1 name, and single integer `n` which may go as high as the biggest number your language of choice supports (if there's such limit, of course).
 
 ## Output / Examples
 Return the single line — the name of the person who drinks the n-th can of cola. The cans are numbered starting from 1. 
 
+~~~if-not:nasm
 ```csharp
 string[] names = new string[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };
 Line.WhoIsNext(names, 1) == "Sheldon"
@@ -28,9 +25,9 @@ Line.WhoIsNext(names, 52) == "Penny"
 Line.WhoIsNext(names, 7230702951) == "Leonard"
 ```
 ```python
-whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 1) == "Sheldon"
-whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 52) == "Penny"
-whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 7230702951) == "Leonard"
+who_is_next(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 1) == "Sheldon"
+who_is_next(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 52) == "Penny"
+who_is_next(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 7230702951) == "Leonard"
 ```
 ```ruby
 whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 1) == "Sheldon"
@@ -50,7 +47,7 @@ whoIsNext(listOf("Sheldon", "Leonard", "Penny", "Rajesh", "Howard"), 7230702951)
 ```r
 who_is_next(c("Sheldon", "Leonard", "Penny", "Rajesh", "Howard"), 1) == "Sheldon"
 who_is_next(c("Sheldon", "Leonard", "Penny", "Rajesh", "Howard"), 52) == "Penny"
-who_is_next(c("Sheldon", "Leonard", "Penny", "Rajesh", "Howard"), 7230702951) == "Leonard"
+who_is_next(c("Sheldon", "Leonard", "Penny", "Rajesh", "Howard"), 10010) == "Howard"
 ```
 ```c
 char* names[] = {"Sheldon", "Leonard", "Penny", "Rajesh", "Howard"};
@@ -58,6 +55,15 @@ who_is_next(names, 5, 1) == "Sheldon"
 who_is_next(names, 5, 52) == "Penny"
 who_is_next(names, 5, 10010) == "Howard"
 ```
+~~~
+~~~if:nasm
+```c
+char* names[] = { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };
+who_is_next(1, 5, names) == "Sheldon"
+who_is_next(52, 5, names) == "Penny"
+who_is_next(7230702951, 5, names) == "Leonard"
+```
+~~~
 
 ## Timeline
 - Created: 2015-04-02

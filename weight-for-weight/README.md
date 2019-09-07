@@ -22,7 +22,7 @@ by "weights" of these numbers?
 
 When two numbers have the same "weight", let us class them as if they were strings and not numbers:
 `100` is before `180` because its "weight" (1) is less than the one of `180` (9)
-and `180` is before `90` since, having the same "weight" (9)  it comes before as a *string*.
+and `180` is before `90` since, having the same "weight" (9),  it comes before as a *string*.
 
 All numbers in the list are positive numbers and the list can be empty.
 

@@ -34,28 +34,26 @@ Here are some resources on DFAs (the automaton this Kata asks you to create):
 
 ```javascript
 var a = new Automaton();
-// Do anything you need to set up this automaton's states.
-var isAccepted = a.readCommands(["1", "0", "0", "1", "0"]);
+a.readCommands(["1", "0", "0", "1", "0"]);  ==> false
 ```
 ```python
 a = Automaton()
-# Do anything you need to set up this automaton's states.
-is_accepted = a.read_commands(["1", "0", "0", "1", "0"])
+a.read_commands(["1", "0", "0", "1", "0"])  ==> False
+```
+```ruby
+a = Automaton.new
+a.read_commands(["1", "0", "0", "1", "0"])  ==> false
 ```
 ```coffeescript
 a = new Automaton()
-# Do anything you need to set up this automaton's states.
-isAccepted = a.readCommands ["1", "0", "0", "1", "0"]
+a.readCommands ["1", "0", "0", "1", "0"]  ==> false
 ```
 ```c++
 a = Automaton()
-// Do anything you need to set up this automaton's states.
-is_accepted = a.read_commands({'1', '0', '0', '1'});
+a.read_commands({'1', '0', '0', '1'});   ==> false
 ```
-
 ```c
-// Do anything you need to set up this automaton's states.
-is_accepted = read_commands("1001");
+read_commands("1001");  ==> false
 ```
 
 
@@ -70,7 +68,7 @@ input: ["1", "0", "0", "1", "0"]
 0: q2 -> q3
 ```
 
-We end in `q3`, which is not our accept state, so we return `false`
+We end in `q3` which is **not** our accept state, so we return `false`
 
 
 

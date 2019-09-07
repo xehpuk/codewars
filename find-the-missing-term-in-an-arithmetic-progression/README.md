@@ -21,6 +21,15 @@ find_missing([1, 3, 5, 9, 11]) == 7
 ```ruby
 findMissing([1, 3, 5, 9, 11]) == 7
 ```
+```c
+find_missing((const int[]){1,3,5,9,11}, 5)  => 7
+```
+```nasm
+nums:  dw  1,3,5,9,11
+
+mov rdi, nums
+mov rsi, 5
+call find_missing    ; EAX <- 7
 ```
 
 PS: This is a sample question of the facebook engineer challenge on interviewstreet.

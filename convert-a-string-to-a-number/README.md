@@ -29,6 +29,18 @@ stringToNumber("605" ) == 605
 stringToNumber("1405") == 1405
 stringToNumber("-7"  ) == -7
 ```
+```dart
+stringToNumber("1234") == 1234
+stringToNumber("605" ) == 605
+stringToNumber("1405") == 1405
+stringToNumber("-7"  ) == -7
+```
+```php
+stringToNumber("1234") === 1234
+stringToNumber("605" ) === 605
+stringToNumber("1405") === 1405
+stringToNumber("-7"  ) === -7
+```
 ```java
 stringToNumber("1234") == 1234
 stringToNumber("605" ) == 605
@@ -71,12 +83,44 @@ string_to_number("605")   == 605
 string_to_number("1405")  == 1405
 string_to_number("-7")    == -7
 ```
+```c
+string_to_number("1234")  == 1234
+string_to_number("605")   == 605
+string_to_number("1405")  == 1405
+string_to_number("-7")    == -7
+```
 ```rust
 string_to_number("1234")  == 1234
 string_to_number("605")   == 605
 string_to_number("1405")  == 1405
 string_to_number("-7")    == -7
 ```
+```lua
+string_to_number("1234")  == 1234
+string_to_number("605")   == 605
+string_to_number("1405")  == 1405
+string_to_number("-7")    == -7
+```
+```groovy
+Kata.stringToNumber("1234") == 1234
+Kata.stringToNumber("605" ) == 605
+Kata.stringToNumber("1405") == 1405
+Kata.stringToNumber("-7"  ) == -7
+```
+```julia
+stringtonumber("1234")  == 1234
+stringtonumber("605")   == 605
+stringtonumber("1405")  == 1405
+stringtonumber("-7")    == -7
+```
+```racket
+(= (string-to-number "1234") 1234)
+(= (string-to-number "605") 605)
+(= (string-to-number "1405") 1405)
+(= (string-to-number "-7") -7)
+```
+
+
 
 
 

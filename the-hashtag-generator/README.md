@@ -2,7 +2,7 @@
 [*View on Codewars*](https://www.codewars.com/kata/the-hashtag-generator)
 
 The marketing team is spending way too much time typing in hashtags.   
-Let's help them with out own Hashtag Generator!
+Let's help them with our own Hashtag Generator!
 
 Here's the deal:
 

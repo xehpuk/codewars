@@ -9,5 +9,5 @@ Given an integer `width` and a string `ratio` written as `WIDTH:HEIGHT`, output 
 ## Timeline
 - Created: 2018-10-09
 - Published: 2018-10-09
-- Approved: null
+- Approved: 2019-09-02
 - Completed: 2018-12-27
